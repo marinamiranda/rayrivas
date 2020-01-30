@@ -1,0 +1,135 @@
+@font-face {
+  font-family: typewriter;
+  src: url(../font/traveling_typewriter/TravelingTypewriter.otf);
+}
+
+
+html.front { 
+  background: url(../images/front.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container.about {
+  background: url(../images/front01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+    width: auto;
+    height: 200px;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+
+}
+.my-gallery figcaption {
+  display: none;
+}
+#my-menu {
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 100px;
+    display: inline-block;
+}
+.artnav{
+  margin-top: 10px;	
+  margin-bottom: 10px;	
+}
+.audioBox {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #aaaaaa;
+}
+.intro {
+    /* margin-left: 40px; */
+    /* top: -340px; */
+    width: 300px;
+    font-size: 38px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    color: #c9c9c9;
+}
+
+body {
+    margin: 0;
+    font-family: typewriter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+font-family: cursive;
+}
+footer {
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+li.nav-item {
+
+    margin-right: 5px;
+}
+a {
+    color: #646464;
+    text-decoration: none;
+    background-color: transparent;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+a.nav-link.active {
+    /* color: #795548; */
+    border-bottom: 1px solid #646464;
+}
+a:hover {
+    color: #795548;
+    text-decoration: underline;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem 0px .5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    font-size: 28px;
+    left: 50%;
+    top: 40%;
+    width: 200px;
+}
+}
+
+
+
+/*
+#my-thumbs {
+   padding: 50px;
+   overflow: hidden;
+}
+#my-thumbs::before,
+#my-thumbs::after {
+    content: none;
+}
+#my-thumbs img {
+    width: calc( 33.33% - 10px );
+    height: calc( 33.33% - 10px );
+    margin: 35px;
+ }*/
